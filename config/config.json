@@ -1,0 +1,101 @@
+{
+
+    "config":[
+        {
+           "id": "startingTime",
+           "label": "Tiempo Inicial (hh:mm:ss)",
+           "note": "",
+           "type": "text",
+           "defaultValue": "02:00:00",
+           "group": "Temporizador"
+        },
+        {
+           "id": "maxTime",
+           "label": "Tiempo Maximo (hh:mm:ss)",
+           "note": "No modifiques este valor si es un extensible sin limites",
+           "type": "text",
+           "defaultValue": "00:00:00",
+           "group": "Temporizador"
+        },
+        {
+           "id": "tier0",
+           "label": "Prime Sub",
+           "note": "minutos",
+           "type": "number",
+           "step": 1,
+           "defaultValue": "5",
+           "group": "Temporizador"
+        },
+        {
+           "id": "tier1",
+           "label": "Tier 1 Sub",
+           "note": "minutos",
+           "type": "number",
+           "defaultValue": "5",
+           "group": "Temporizador"
+        },
+        {
+           "id": "tier2",
+           "label": "Tier 2 Sub",
+           "note": "minutos",
+           "type": "number",
+           "defaultValue": "5",
+           "group": "Temporizador"
+        },
+        {
+           "id": "tier3",
+           "label": "Tier 3 Sub",
+           "note": "minutos",
+           "type": "number",
+           "defaultValue": "5",
+           "group": "Temporizador"
+        },
+        {
+           "id": "minBits",
+           "label": "Bits",
+           "note": "",
+           "type": "number",
+           "defaultValue": "100",
+           "group": "Temporizador"
+        },
+        {
+           "id": "bitsTime",
+           "label": "Tiempo a Agregar con Bits",
+           "note": "minutos",
+           "type": "number",
+           "defaultValue": "5",
+           "group": "Temporizador"
+        },
+        {
+            "id": "fondoColor",
+            "label": "Selecciona un Color de fondo",
+            "type": "color",
+            "defaultValue": "#000000",
+            "group": "Visual"
+        },
+        {
+            "id": "opacidad",
+            "label": "Selecciona la Opacidad (0 - 1)",
+            "note": "",
+            "type": "number",
+            "defaultValue": "0.75",
+            "group": "Visual"
+        },
+        {
+			"id": "colorFuente",
+			"label": "Selecciona un Color de la fuente",
+         "type": "color",
+         "defaultValue": "#ffffff",
+         "group": "Visual"
+		},
+        {
+			"id": "fuenteLetra",
+			"label": "Fuente",
+            "note": "Puedes usar las fuentes de letra que esten instaladas en tu ordenador Ej: Comic Sans MS",
+			"type": "text",
+			"defaultValue": "Arial",
+			"group": "Visual"
+		}
+    ]
+
+}
