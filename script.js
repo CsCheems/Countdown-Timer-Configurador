@@ -161,6 +161,15 @@ function actualizarPreview() {
   const tier3 = document.getElementById("tier3").value;
   const minBits = document.getElementById("minBits").value;
   const bitsTime = document.getElementById("bitsTime").value;
+
+  const dono1 = document.getElementById("dono1").value;
+  const dono2 = document.getElementById("dono2").value;
+  const dono3 = document.getElementById("dono3").value;
+  const dono1Time = document.getElementById("dono1Time").value;
+  const dono2Time = document.getElementById("dono2Time").value;
+  const dono3Time = document.getElementById("dono3Time").value;
+
+
   const fondoColor = document.getElementById("fondoColor").value;
   const opacidad = document.getElementById("opacidad").value;
   const colorFuente = document.getElementById("colorFuente").value;
@@ -176,6 +185,12 @@ function actualizarPreview() {
     tier3,
     minBits,
     bitsTime,
+    dono1,
+    dono2,
+    dono3,
+    dono1Time,
+    dono2Time,
+    dono3Time,
     fondoColor,
     opacidad,
     colorFuente,
@@ -224,7 +239,7 @@ function copiarUrl() {
     zIndex: '2',
     opacity: '0',
     left: '50%',
-    top: '-35px', // Ajusta si quieres que esté más cerca o más lejos
+    top: '-35px',
     transform: 'translate(-50%, 175%)',
     transition: 'opacity 0.2s ease-in-out',
     pointerEvents: 'none'

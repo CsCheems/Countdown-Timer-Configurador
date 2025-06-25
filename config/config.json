@@ -24,7 +24,7 @@
            "type": "number",
            "step": 1,
            "defaultValue": "5",
-           "group": "Temporizador"
+           "group": "Twitch"
         },
         {
            "id": "tier1",
@@ -32,7 +32,7 @@
            "note": "minutos",
            "type": "number",
            "defaultValue": "5",
-           "group": "Temporizador"
+           "group": "Twitch"
         },
         {
            "id": "tier2",
@@ -40,7 +40,7 @@
            "note": "minutos",
            "type": "number",
            "defaultValue": "5",
-           "group": "Temporizador"
+           "group": "Twitch"
         },
         {
            "id": "tier3",
@@ -48,7 +48,7 @@
            "note": "minutos",
            "type": "number",
            "defaultValue": "5",
-           "group": "Temporizador"
+           "group": "Twitch"
         },
         {
            "id": "minBits",
@@ -56,7 +56,7 @@
            "note": "",
            "type": "number",
            "defaultValue": "100",
-           "group": "Temporizador"
+           "group": "Twitch"
         },
         {
            "id": "bitsTime",
@@ -64,7 +64,55 @@
            "note": "minutos",
            "type": "number",
            "defaultValue": "5",
-           "group": "Temporizador"
+           "group": "Twitch"
+        },
+        {
+           "id": "dono1",
+           "label": "Donacion de Ko-fi 1",
+           "note": "usd",
+           "type": "number",
+           "defaultValue": "3",
+           "group": "Kofi"
+        },
+        {
+           "id": "dono2",
+           "label": "Donacion de Ko-fi 2",
+           "note": "usd",
+           "type": "number",
+           "defaultValue": "0",
+           "group": "Kofi"
+        },
+        {
+           "id": "dono3",
+           "label": "Donacion de Ko-fi 3",
+           "note": "usd",
+           "type": "number",
+           "defaultValue": "0",
+           "group": "Kofi"
+        },
+        {
+           "id": "dono1Time",
+           "label": "Tiempo de Donacion 1",
+           "note": "minutos",
+           "type": "number",
+           "defaultValue": "5",
+           "group": "Kofi"
+        },
+        {
+           "id": "dono2Time",
+           "label": "Tiempo de Donacion 2",
+           "note": "minutos",
+           "type": "number",
+           "defaultValue": "0",
+           "group": "Kofi"
+        },
+        {
+           "id": "dono3Time",
+           "label": "Tiempo de Donacion 3",
+           "note": "minutos",
+           "type": "number",
+           "defaultValue": "0",
+           "group": "Kofi"
         },
         {
             "id": "fondoColor",
