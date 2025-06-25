@@ -135,7 +135,7 @@
          "type": "color",
          "defaultValue": "#ffffff",
          "group": "Visual"
-		},
+		  },
         {
 			"id": "fuenteLetra",
 			"label": "Fuente",
@@ -143,7 +143,21 @@
 			"type": "text",
 			"defaultValue": "Arial",
 			"group": "Visual"
-		}
+		  },
+        {
+			"id": "hostInput",
+			"label": "Host",
+			"type": "text",
+			"defaultValue": "127.0.0.1",
+			"group": "Streamerbot"
+		  },
+        {
+			"id": "portInput",
+			"label": "Puerto",
+			"type": "text",
+			"defaultValue": "8080",
+			"group": "Streamerbot"
+		  }
     ]
 
 }
