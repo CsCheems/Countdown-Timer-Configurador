@@ -162,12 +162,12 @@ function actualizarPreview() {
   const minBits = document.getElementById("minBits").value;
   const bitsTime = document.getElementById("bitsTime").value;
 
-  // const dono1 = document.getElementById("dono1").value;
-  // const dono2 = document.getElementById("dono2").value;
-  // const dono3 = document.getElementById("dono3").value;
-  // const dono1Time = document.getElementById("dono1Time").value;
-  // const dono2Time = document.getElementById("dono2Time").value;
-  // const dono3Time = document.getElementById("dono3Time").value;
+  const dono1 = document.getElementById("dono1").value;
+  const dono2 = document.getElementById("dono2").value;
+  const dono3 = document.getElementById("dono3").value;
+  const dono1Time = document.getElementById("dono1Time").value;
+  const dono2Time = document.getElementById("dono2Time").value;
+  const dono3Time = document.getElementById("dono3Time").value;
 
   const fondoColor = document.getElementById("fondoColor").value;
   const opacidad = document.getElementById("opacidad").value;
@@ -187,12 +187,12 @@ function actualizarPreview() {
     tier3,
     minBits,
     bitsTime,
-    // dono1,
-    // dono2,
-    // dono3,
-    // dono1Time,
-    // dono2Time,
-    // dono3Time,
+    dono1,
+    dono2,
+    dono3,
+    dono1Time,
+    dono2Time,
+    dono3Time,
     fondoColor,
     opacidad,
     colorFuente,
