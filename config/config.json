@@ -145,14 +145,14 @@
 			"group": "Visual"
 		  },
         {
-			"id": "hostInput",
+			"id": "address",
 			"label": "Host",
 			"type": "text",
 			"defaultValue": "127.0.0.1",
 			"group": "Streamerbot"
 		  },
         {
-			"id": "portInput",
+			"id": "port",
 			"label": "Puerto",
 			"type": "text",
 			"defaultValue": "8080",

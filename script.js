@@ -175,8 +175,8 @@ function actualizarPreview() {
   const colorFuente = document.getElementById("colorFuente").value;
   const fuenteLetra = document.getElementById("fuenteLetra").value;
 
-  const hostInput = document.getElementById("hostInput").value;
-  const portInput = document.getElementById("portInput").value;
+  const address = document.getElementById("address").value;
+  const port = document.getElementById("port").value;
 
   // Usar segundos en el URL
   const params = new URLSearchParams({
@@ -198,8 +198,8 @@ function actualizarPreview() {
     opacidad,
     colorFuente,
     fuenteLetra,
-    hostInput,
-    portInput
+    address,
+    port
   });
 
   const finalUrl = `${baseURL}?${params.toString()}`;
