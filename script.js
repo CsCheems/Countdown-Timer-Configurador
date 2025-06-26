@@ -127,7 +127,7 @@ function aplicarOpcionesDefault(config) {
 }
 
 function generarUrl(config) {
-  const baseUrl = "https://cscheems.github.io/Countdown-Timer/";
+  const baseUrl = "https://cscheems.github.io/Countdown-Timer-V0.8/";
   const params = new URLSearchParams();
 
   config.config.forEach(item => {
@@ -149,7 +149,7 @@ function generarUrl(config) {
 }
 
 function actualizarPreview() {
-  const baseURL = "https://cscheems.github.io/Countdown-Timer/";
+  const baseURL = "https://cscheems.github.io/Countdown-Timer-V0.8/";
 
   // Obtener los valores como string tipo "HH:MM:SS"
   const startingTime = tiempoAHorasSegundos(document.getElementById("startingTime").value);
@@ -252,7 +252,6 @@ function copiarUrl() {
   const widgetUrlInputContainer = document.getElementById("widgetUrlInputContainer");
   widgetUrlInputContainer.appendChild(urlCopiado);
 
-  // Forzar reflow
   void urlCopiado.offsetWidth;
 
   urlCopiado.style.opacity = '1';
@@ -264,7 +263,7 @@ function copiarUrl() {
         widgetUrlInputContainer.removeChild(urlCopiado);
       }
     }, 500);
-  }, 2000); // Más rápido
+  }, 2000);
 }
 
 
